@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* Wingman_HoroscopeAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1303, 916}}";
+			sepNavSelRange = "{504, 0}";
+			sepNavVisRange = "{0, 504}";
+		};
+	};
+	1D3623250D0F684500981E51 /* Wingman_HoroscopeAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1303, 916}}";
+			sepNavSelRange = "{676, 7}";
+			sepNavVisRange = "{0, 733}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* Astroscope */ = {
+		activeExec = 0;
+		executables = (
+			998CD92A0F2545340057128C /* Astroscope */,
+		);
+	};
+	28C286DF0D94DF7D0034E888 /* RootViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {865, 458}}";
+			sepNavSelRange = "{360, 0}";
+			sepNavVisRange = "{0, 418}";
+		};
+	};
+	28C286E00D94DF7D0034E888 /* RootViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {840, 2464}}";
+			sepNavSelRange = "{2520, 0}";
+			sepNavVisRange = "{3807, 1315}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 998CD92A0F2545340057128C /* Astroscope */;
+		activeSDKPreference = iphoneos2.2;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* Astroscope */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* Astroscope */,
+		);
+		breakpoints = (
+		);
+		codeSenseManager = 998CD9410F25453E0057128C /* Code sense */;
+		executables = (
+			998CD92A0F2545340057128C /* Astroscope */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					514,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					474,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 254417517;
+			PBXWorkspaceStateSaveDate = 254417517;
+		};
+		perUserProjectItems = {
+			9942AE160F2A1A8600D79E4C /* PBXTextBookmark */ = 9942AE160F2A1A8600D79E4C /* PBXTextBookmark */;
+			9957842A0F28EFA100CF60A7 /* PBXTextBookmark */ = 9957842A0F28EFA100CF60A7 /* PBXTextBookmark */;
+			9957842B0F28EFA100CF60A7 /* PBXTextBookmark */ = 9957842B0F28EFA100CF60A7 /* PBXTextBookmark */;
+			995784A00F28FD6400CF60A7 /* PBXBookmark */ = 995784A00F28FD6400CF60A7 /* PBXBookmark */;
+			995784A60F28FDF300CF60A7 /* PBXTextBookmark */ = 995784A60F28FDF300CF60A7 /* PBXTextBookmark */;
+			9957853F0F291DB000CF60A7 /* PBXTextBookmark */ = 9957853F0F291DB000CF60A7 /* PBXTextBookmark */;
+			995785430F291DB000CF60A7 /* PBXTextBookmark */ = 995785430F291DB000CF60A7 /* PBXTextBookmark */;
+			995785440F291DB000CF60A7 /* PBXTextBookmark */ = 995785440F291DB000CF60A7 /* PBXTextBookmark */;
+			9957855D0F291F3D00CF60A7 /* PBXBookmark */ = 9957855D0F291F3D00CF60A7 /* PBXBookmark */;
+			995785A40F29230E00CF60A7 /* PBXTextBookmark */ = 995785A40F29230E00CF60A7 /* PBXTextBookmark */;
+			995785D10F292ADE00CF60A7 /* PBXTextBookmark */ = 995785D10F292ADE00CF60A7 /* PBXTextBookmark */;
+			995785E00F292D1000CF60A7 /* PlistBookmark */ = 995785E00F292D1000CF60A7 /* PlistBookmark */;
+			995786110F29302500CF60A7 /* PBXTextBookmark */ = 995786110F29302500CF60A7 /* PBXTextBookmark */;
+			995786120F29302500CF60A7 /* PBXTextBookmark */ = 995786120F29302500CF60A7 /* PBXTextBookmark */;
+			9957862A0F29322B00CF60A7 /* PBXTextBookmark */ = 9957862A0F29322B00CF60A7 /* PBXTextBookmark */;
+			998CD9510F2546990057128C /* PBXTextBookmark */ = 998CD9510F2546990057128C /* PBXTextBookmark */;
+			998CD9730F2547370057128C /* PBXTextBookmark */ = 998CD9730F2547370057128C /* PBXTextBookmark */;
+			99A209540F27C13D00B9883C /* PBXTextBookmark */ = 99A209540F27C13D00B9883C /* PBXTextBookmark */;
+			99AA00480F27F546000ADBC5 /* PBXTextBookmark */ = 99AA00480F27F546000ADBC5 /* PBXTextBookmark */;
+			99B75BAF0F27758B0002B61B /* PBXTextBookmark */ = 99B75BAF0F27758B0002B61B /* PBXTextBookmark */;
+			99B75BB50F27758B0002B61B /* PBXTextBookmark */ = 99B75BB50F27758B0002B61B /* PBXTextBookmark */;
+			99B75BB80F27758B0002B61B /* PBXTextBookmark */ = 99B75BB80F27758B0002B61B /* PBXTextBookmark */;
+			99B75C700F277CA80002B61B /* PBXTextBookmark */ = 99B75C700F277CA80002B61B /* PBXTextBookmark */;
+			99B75C710F277CA80002B61B /* PBXTextBookmark */ = 99B75C710F277CA80002B61B /* PBXTextBookmark */;
+			99D989570F27FFA6003E83A2 /* PlistBookmark */ = 99D989570F27FFA6003E83A2 /* PlistBookmark */;
+		};
+		sourceControlManager = 998CD9400F25453E0057128C /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8D1107310486CEB800E47090 /* Info.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{19, 615}, {750, 558}}";
+		};
+	};
+	9942AE160F2A1A8600D79E4C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 99B75B6B0F276F5F0002B61B /* HoroscopeDetailController.m */;
+		name = "HoroscopeDetailController.m: 104";
+		rLen = 0;
+		rLoc = 2859;
+		rType = 0;
+		vrLen = 684;
+		vrLoc = 2280;
+	};
+	995784070F28EA2500CF60A7 /* ZodiacCell.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {692, 663}}";
+			sepNavSelRange = "{223, 255}";
+			sepNavVisRange = "{0, 484}";
+		};
+	};
+	995784080F28EA2500CF60A7 /* ZodiacCell.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {758, 735}}";
+			sepNavSelRange = "{253, 0}";
+			sepNavVisRange = "{0, 688}";
+		};
+	};
+	9957842A0F28EFA100CF60A7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 995784070F28EA2500CF60A7 /* ZodiacCell.h */;
+		name = "ZodiacCell.h: 14";
+		rLen = 0;
+		rLoc = 281;
+		rType = 0;
+		vrLen = 392;
+		vrLoc = 0;
+	};
+	9957842B0F28EFA100CF60A7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 995784080F28EA2500CF60A7 /* ZodiacCell.m */;
+		name = "ZodiacCell.m: 36";
+		rLen = 0;
+		rLoc = 682;
+		rType = 0;
+		vrLen = 675;
+		vrLoc = 0;
+	};
+	995784A00F28FD6400CF60A7 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 9957848C0F28FA4700CF60A7 /* zodiacCellBackground.png */;
+	};
+	995784A60F28FDF300CF60A7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 995784080F28EA2500CF60A7 /* ZodiacCell.m */;
+		name = "ZodiacCell.m: 14";
+		rLen = 0;
+		rLoc = 253;
+		rType = 0;
+		vrLen = 688;
+		vrLoc = 0;
+	};
+	9957853F0F291DB000CF60A7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286DF0D94DF7D0034E888 /* RootViewController.h */;
+		name = "RootViewController.h: 11";
+		rLen = 0;
+		rLoc = 210;
+		rType = 0;
+		vrLen = 418;
+		vrLoc = 0;
+	};
+	995785430F291DB000CF60A7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* Wingman_HoroscopeAppDelegate.m */;
+		name = "Wingman_HoroscopeAppDelegate.m: 32";
+		rLen = 7;
+		rLoc = 676;
+		rType = 0;
+		vrLen = 733;
+		vrLoc = 0;
+	};
+	995785440F291DB000CF60A7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* Wingman_HoroscopeAppDelegate.h */;
+		name = "Wingman_HoroscopeAppDelegate.h: 22";
+		rLen = 0;
+		rLoc = 504;
+		rType = 0;
+		vrLen = 504;
+		vrLoc = 0;
+	};
+	9957855D0F291F3D00CF60A7 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 9957848C0F28FA4700CF60A7 /* zodiacCellBackground.png */;
+	};
+	995785A40F29230E00CF60A7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 995784070F28EA2500CF60A7 /* ZodiacCell.h */;
+		name = "ZodiacCell.h: 13";
+		rLen = 255;
+		rLoc = 223;
+		rType = 0;
+		vrLen = 484;
+		vrLoc = 0;
+	};
+	995785D10F292ADE00CF60A7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
+		name = "RootViewController.m: 83";
+		rLen = 0;
+		rLoc = 2520;
+		rType = 0;
+		vrLen = 1315;
+		vrLoc = 3807;
+	};
+	995785E00F292D1000CF60A7 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/camwest/src/Wingman-Horoscope/Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	995786110F29302500CF60A7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 99B75B6A0F276F5F0002B61B /* HoroscopeDetailController.h */;
+		name = "HoroscopeDetailController.h: 56";
+		rLen = 0;
+		rLoc = 1644;
+		rType = 0;
+		vrLen = 1515;
+		vrLoc = 257;
+	};
+	995786120F29302500CF60A7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 99B75C670F277C720002B61B /* HoroscopeEditingController.h */;
+		name = "HoroscopeEditingController.h: 17";
+		rLen = 0;
+		rLoc = 501;
+		rType = 0;
+		vrLen = 1151;
+		vrLoc = 0;
+	};
+	9957862A0F29322B00CF60A7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 99B75B6B0F276F5F0002B61B /* HoroscopeDetailController.m */;
+		name = "HoroscopeDetailController.m: 104";
+		rLen = 0;
+		rLoc = 2859;
+		rType = 0;
+		vrLen = 686;
+		vrLoc = 2280;
+	};
+	998CD92A0F2545340057128C /* Astroscope */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Astroscope;
+		savedGlobals = {
+		};
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	998CD9400F25453E0057128C /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	998CD9410F25453E0057128C /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	998CD9510F2546990057128C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286DF0D94DF7D0034E888 /* RootViewController.h */;
+		name = "RootViewController.h: 15";
+		rLen = 0;
+		rLoc = 412;
+		rType = 0;
+		vrLen = 315;
+		vrLoc = 0;
+	};
+	998CD9730F2547370057128C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
+		name = "RootViewController.m: 74";
+		rLen = 0;
+		rLoc = 941;
+		rType = 0;
+		vrLen = 722;
+		vrLoc = 0;
+	};
+	99A209540F27C13D00B9883C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* Wingman_HoroscopeAppDelegate.h */;
+		name = "Wingman_HoroscopeAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 504;
+		vrLoc = 0;
+	};
+	99AA00480F27F546000ADBC5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 99B75C680F277C720002B61B /* HoroscopeEditingController.m */;
+		name = "HoroscopeEditingController.m: 90";
+		rLen = 0;
+		rLoc = 3111;
+		rType = 0;
+		vrLen = 1073;
+		vrLoc = 2041;
+	};
+	99B75B6A0F276F5F0002B61B /* HoroscopeDetailController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {692, 896}}";
+			sepNavSelRange = "{1644, 0}";
+			sepNavVisRange = "{257, 1515}";
+			sepNavWindowFrame = "{{19, 615}, {750, 558}}";
+		};
+	};
+	99B75B6B0F276F5F0002B61B /* HoroscopeDetailController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {3876, 2842}}";
+			sepNavSelRange = "{2859, 0}";
+			sepNavVisRange = "{2280, 684}";
+		};
+	};
+	99B75BAF0F27758B0002B61B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* Wingman_HoroscopeAppDelegate.m */;
+		name = "Wingman_HoroscopeAppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 729;
+		vrLoc = 0;
+	};
+	99B75BB50F27758B0002B61B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 99B75B6A0F276F5F0002B61B /* HoroscopeDetailController.h */;
+		name = "HoroscopeDetailController.h: 13";
+		rLen = 0;
+		rLoc = 1019;
+		rType = 0;
+		vrLen = 263;
+		vrLoc = 0;
+	};
+	99B75BB80F27758B0002B61B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 99B75B6B0F276F5F0002B61B /* HoroscopeDetailController.m */;
+		name = "HoroscopeDetailController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1212;
+		vrLoc = 170;
+	};
+	99B75C670F277C720002B61B /* HoroscopeEditingController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {692, 663}}";
+			sepNavSelRange = "{501, 0}";
+			sepNavVisRange = "{0, 1151}";
+		};
+	};
+	99B75C680F277C720002B61B /* HoroscopeEditingController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1092, 1484}}";
+			sepNavSelRange = "{3111, 0}";
+			sepNavVisRange = "{2041, 1073}";
+			sepNavWindowFrame = "{{19, 615}, {750, 558}}";
+		};
+	};
+	99B75C700F277CA80002B61B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 99B75C670F277C720002B61B /* HoroscopeEditingController.h */;
+		name = "HoroscopeEditingController.h: 13";
+		rLen = 0;
+		rLoc = 637;
+		rType = 0;
+		vrLen = 265;
+		vrLoc = 0;
+	};
+	99B75C710F277CA80002B61B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 99B75C680F277C720002B61B /* HoroscopeEditingController.m */;
+		name = "HoroscopeEditingController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1355;
+		vrLoc = 0;
+	};
+	99D989570F27FFA6003E83A2 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/camwest/src/Wingman-Horoscope/Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+}

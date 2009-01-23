@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>files</key>
+	<dict>
+		<key>HoroscopeDetail.nib</key>
+		<data>
+		wIGpC+ROBJfMdYLFQ7HaLU/fglo=
+		</data>
+		<key>HoroscopeEditingView.nib</key>
+		<data>
+		w9ZYFTlF/CxTQ1PXp6R6yObldSY=
+		</data>
+		<key>MainWindow.nib</key>
+		<data>
+		sPPl2IDX7EVuYYI+ww9GTxX229Q=
+		</data>
+		<key>PkgInfo</key>
+		<data>
+		n57qDP4tZfLD1rCS43W0B4LQjzE=
+		</data>
+		<key>RootViewController.nib</key>
+		<data>
+		D0hWNv3WLY3QOd57v+MV/YbK6fI=
+		</data>
+		<key>embedded.mobileprovision</key>
+		<data>
+		3uHMe4M1YnDfKXdXKT88y0/TR3s=
+		</data>
+		<key>oh_yeah.wav</key>
+		<data>
+		5kCI9IIcF+t8vLrvDKAU2+aXL+A=
+		</data>
+		<key>page_swipe.wav</key>
+		<data>
+		ABb3hM62m3CqK1Tz9OeuFZI85dM=
+		</data>
+	</dict>
+	<key>rules</key>
+	<dict>
+		<key>.*</key>
+		<true/>
+		<key>Info.plist</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>10</real>
+		</dict>
+		<key>ResourceRules.plist</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>100</real>
+		</dict>
+	</dict>
+</dict>
+</plist>
