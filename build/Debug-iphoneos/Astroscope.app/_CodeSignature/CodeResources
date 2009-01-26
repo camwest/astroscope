@@ -4,13 +4,17 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Default.png</key>
+		<data>
+		4Gr2K2bORZuhiEXpMkA+tXZSwDY=
+		</data>
 		<key>HoroscopeDetail.nib</key>
 		<data>
-		Kak54ZrqIdZTuei3F4cwq+21g88=
+		th99qGNSm0yl+PPsytSzWISrdsU=
 		</data>
 		<key>HoroscopeEditingView.nib</key>
 		<data>
-		OCnBSzFYDNEqyfwssTw3txUZUlE=
+		7zJ7rjQkrlEqFNEFFhHWz/rHi2A=
 		</data>
 		<key>MainWindow.nib</key>
 		<data>
@@ -22,11 +26,11 @@
 		</data>
 		<key>RootViewController.nib</key>
 		<data>
-		0b7L6Us9Kuq8gKYyzXSFhvRcqT4=
+		n9m4mcQ7ptIs/Ujp6oPftjXEDGs=
 		</data>
 		<key>ZodiacCell.nib</key>
 		<data>
-		z4lqFuhjT/WouVsMuA7kgcR4N1I=
+		jW6L4aOrC6jBdzbYb1Z+Fs+LqcM=
 		</data>
 		<key>aquariusImage.png</key>
 		<data>

@@ -9,7 +9,7 @@
 	};
 	1D3623250D0F684500981E51 /* Wingman_HoroscopeAppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1303, 916}}";
+			sepNavIntBoundsRect = "{{0, 0}, {692, 663}}";
 			sepNavSelRange = "{676, 7}";
 			sepNavVisRange = "{0, 733}";
 		};
@@ -22,20 +22,20 @@
 	};
 	28C286DF0D94DF7D0034E888 /* RootViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {865, 458}}";
-			sepNavSelRange = "{360, 0}";
+			sepNavIntBoundsRect = "{{0, 0}, {692, 663}}";
+			sepNavSelRange = "{210, 0}";
 			sepNavVisRange = "{0, 418}";
 		};
 	};
 	28C286E00D94DF7D0034E888 /* RootViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {840, 2464}}";
-			sepNavSelRange = "{2520, 0}";
-			sepNavVisRange = "{3807, 1315}";
+			sepNavIntBoundsRect = "{{0, 0}, {3306, 2800}}";
+			sepNavSelRange = "{9917, 0}";
+			sepNavVisRange = "{4259, 4303}";
 		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
-		activeBuildConfigurationName = Debug;
+		activeBuildConfigurationName = Release;
 		activeExecutable = 998CD92A0F2545340057128C /* Astroscope */;
 		activeSDKPreference = iphoneos2.2;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* Astroscope */;
@@ -49,12 +49,26 @@
 			998CD92A0F2545340057128C /* Astroscope */,
 		);
 		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					491,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
 			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
 				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					514,
+					603,
 					20,
 					48,
 					43,
@@ -76,7 +90,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					474,
+					563,
 					60,
 					20,
 					48,
@@ -93,34 +107,35 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 254417517;
-			PBXWorkspaceStateSaveDate = 254417517;
+			PBXPerProjectTemplateStateSaveDate = 254680453;
+			PBXWorkspaceStateSaveDate = 254680453;
 		};
 		perUserProjectItems = {
-			9942AE160F2A1A8600D79E4C /* PBXTextBookmark */ = 9942AE160F2A1A8600D79E4C /* PBXTextBookmark */;
+			993B44B10F2C0DCA00EFD9C2 /* PBXTextBookmark */ = 993B44B10F2C0DCA00EFD9C2 /* PBXTextBookmark */;
+			993B44B80F2C0E8200EFD9C2 /* PBXBookmark */ = 993B44B80F2C0E8200EFD9C2 /* PBXBookmark */;
 			9957842A0F28EFA100CF60A7 /* PBXTextBookmark */ = 9957842A0F28EFA100CF60A7 /* PBXTextBookmark */;
 			9957842B0F28EFA100CF60A7 /* PBXTextBookmark */ = 9957842B0F28EFA100CF60A7 /* PBXTextBookmark */;
 			995784A00F28FD6400CF60A7 /* PBXBookmark */ = 995784A00F28FD6400CF60A7 /* PBXBookmark */;
 			995784A60F28FDF300CF60A7 /* PBXTextBookmark */ = 995784A60F28FDF300CF60A7 /* PBXTextBookmark */;
-			9957853F0F291DB000CF60A7 /* PBXTextBookmark */ = 9957853F0F291DB000CF60A7 /* PBXTextBookmark */;
-			995785430F291DB000CF60A7 /* PBXTextBookmark */ = 995785430F291DB000CF60A7 /* PBXTextBookmark */;
 			995785440F291DB000CF60A7 /* PBXTextBookmark */ = 995785440F291DB000CF60A7 /* PBXTextBookmark */;
 			9957855D0F291F3D00CF60A7 /* PBXBookmark */ = 9957855D0F291F3D00CF60A7 /* PBXBookmark */;
 			995785A40F29230E00CF60A7 /* PBXTextBookmark */ = 995785A40F29230E00CF60A7 /* PBXTextBookmark */;
-			995785D10F292ADE00CF60A7 /* PBXTextBookmark */ = 995785D10F292ADE00CF60A7 /* PBXTextBookmark */;
 			995785E00F292D1000CF60A7 /* PlistBookmark */ = 995785E00F292D1000CF60A7 /* PlistBookmark */;
-			995786110F29302500CF60A7 /* PBXTextBookmark */ = 995786110F29302500CF60A7 /* PBXTextBookmark */;
-			995786120F29302500CF60A7 /* PBXTextBookmark */ = 995786120F29302500CF60A7 /* PBXTextBookmark */;
-			9957862A0F29322B00CF60A7 /* PBXTextBookmark */ = 9957862A0F29322B00CF60A7 /* PBXTextBookmark */;
+			99762D2A0F2E1DB7000028AD /* PBXBookmark */ = 99762D2A0F2E1DB7000028AD /* PBXBookmark */;
 			998CD9510F2546990057128C /* PBXTextBookmark */ = 998CD9510F2546990057128C /* PBXTextBookmark */;
 			998CD9730F2547370057128C /* PBXTextBookmark */ = 998CD9730F2547370057128C /* PBXTextBookmark */;
 			99A209540F27C13D00B9883C /* PBXTextBookmark */ = 99A209540F27C13D00B9883C /* PBXTextBookmark */;
-			99AA00480F27F546000ADBC5 /* PBXTextBookmark */ = 99AA00480F27F546000ADBC5 /* PBXTextBookmark */;
 			99B75BAF0F27758B0002B61B /* PBXTextBookmark */ = 99B75BAF0F27758B0002B61B /* PBXTextBookmark */;
 			99B75BB50F27758B0002B61B /* PBXTextBookmark */ = 99B75BB50F27758B0002B61B /* PBXTextBookmark */;
 			99B75BB80F27758B0002B61B /* PBXTextBookmark */ = 99B75BB80F27758B0002B61B /* PBXTextBookmark */;
 			99B75C700F277CA80002B61B /* PBXTextBookmark */ = 99B75C700F277CA80002B61B /* PBXTextBookmark */;
 			99B75C710F277CA80002B61B /* PBXTextBookmark */ = 99B75C710F277CA80002B61B /* PBXTextBookmark */;
+			99CA64DC0F2A43F50027BD95 /* PBXTextBookmark */ = 99CA64DC0F2A43F50027BD95 /* PBXTextBookmark */;
+			99CA64DD0F2A43F50027BD95 /* PBXTextBookmark */ = 99CA64DD0F2A43F50027BD95 /* PBXTextBookmark */;
+			99CA64DE0F2A43F50027BD95 /* PBXTextBookmark */ = 99CA64DE0F2A43F50027BD95 /* PBXTextBookmark */;
+			99CA65390F2A4FB30027BD95 /* PBXTextBookmark */ = 99CA65390F2A4FB30027BD95 /* PBXTextBookmark */;
+			99CA653A0F2A4FB30027BD95 /* PBXTextBookmark */ = 99CA653A0F2A4FB30027BD95 /* PBXTextBookmark */;
+			99CA653B0F2A4FB30027BD95 /* PBXTextBookmark */ = 99CA653B0F2A4FB30027BD95 /* PBXTextBookmark */;
 			99D989570F27FFA6003E83A2 /* PlistBookmark */ = 99D989570F27FFA6003E83A2 /* PlistBookmark */;
 		};
 		sourceControlManager = 998CD9400F25453E0057128C /* Source Control */;
@@ -132,15 +147,19 @@
 			sepNavWindowFrame = "{{19, 615}, {750, 558}}";
 		};
 	};
-	9942AE160F2A1A8600D79E4C /* PBXTextBookmark */ = {
+	993B44B10F2C0DCA00EFD9C2 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 99B75B6B0F276F5F0002B61B /* HoroscopeDetailController.m */;
-		name = "HoroscopeDetailController.m: 104";
+		name = "HoroscopeDetailController.m: 2";
 		rLen = 0;
-		rLoc = 2859;
+		rLoc = 18;
 		rType = 0;
-		vrLen = 684;
-		vrLoc = 2280;
+		vrLen = 969;
+		vrLoc = 0;
+	};
+	993B44B80F2C0E8200EFD9C2 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 9915F7ED0F27E18700E99AC0 /* icon.png */;
 	};
 	995784070F28EA2500CF60A7 /* ZodiacCell.h */ = {
 		uiCtxt = {
@@ -190,26 +209,6 @@
 		vrLen = 688;
 		vrLoc = 0;
 	};
-	9957853F0F291DB000CF60A7 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28C286DF0D94DF7D0034E888 /* RootViewController.h */;
-		name = "RootViewController.h: 11";
-		rLen = 0;
-		rLoc = 210;
-		rType = 0;
-		vrLen = 418;
-		vrLoc = 0;
-	};
-	995785430F291DB000CF60A7 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1D3623250D0F684500981E51 /* Wingman_HoroscopeAppDelegate.m */;
-		name = "Wingman_HoroscopeAppDelegate.m: 32";
-		rLen = 7;
-		rLoc = 676;
-		rType = 0;
-		vrLen = 733;
-		vrLoc = 0;
-	};
 	995785440F291DB000CF60A7 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 1D3623240D0F684500981E51 /* Wingman_HoroscopeAppDelegate.h */;
@@ -234,16 +233,6 @@
 		vrLen = 484;
 		vrLoc = 0;
 	};
-	995785D10F292ADE00CF60A7 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
-		name = "RootViewController.m: 83";
-		rLen = 0;
-		rLoc = 2520;
-		rType = 0;
-		vrLen = 1315;
-		vrLoc = 3807;
-	};
 	995785E00F292D1000CF60A7 /* PlistBookmark */ = {
 		isa = PlistBookmark;
 		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
@@ -255,35 +244,9 @@
 		rLen = 0;
 		rLoc = 2147483647;
 	};
-	995786110F29302500CF60A7 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 99B75B6A0F276F5F0002B61B /* HoroscopeDetailController.h */;
-		name = "HoroscopeDetailController.h: 56";
-		rLen = 0;
-		rLoc = 1644;
-		rType = 0;
-		vrLen = 1515;
-		vrLoc = 257;
-	};
-	995786120F29302500CF60A7 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 99B75C670F277C720002B61B /* HoroscopeEditingController.h */;
-		name = "HoroscopeEditingController.h: 17";
-		rLen = 0;
-		rLoc = 501;
-		rType = 0;
-		vrLen = 1151;
-		vrLoc = 0;
-	};
-	9957862A0F29322B00CF60A7 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 99B75B6B0F276F5F0002B61B /* HoroscopeDetailController.m */;
-		name = "HoroscopeDetailController.m: 104";
-		rLen = 0;
-		rLoc = 2859;
-		rType = 0;
-		vrLen = 686;
-		vrLoc = 2280;
+	99762D2A0F2E1DB7000028AD /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 9915F7ED0F27E18700E99AC0 /* icon.png */;
 	};
 	998CD92A0F2545340057128C /* Astroscope */ = {
 		isa = PBXExecutable;
@@ -354,29 +317,19 @@
 		vrLen = 504;
 		vrLoc = 0;
 	};
-	99AA00480F27F546000ADBC5 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 99B75C680F277C720002B61B /* HoroscopeEditingController.m */;
-		name = "HoroscopeEditingController.m: 90";
-		rLen = 0;
-		rLoc = 3111;
-		rType = 0;
-		vrLen = 1073;
-		vrLoc = 2041;
-	};
 	99B75B6A0F276F5F0002B61B /* HoroscopeDetailController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {692, 896}}";
-			sepNavSelRange = "{1644, 0}";
-			sepNavVisRange = "{257, 1515}";
+			sepNavIntBoundsRect = "{{0, 0}, {781, 896}}";
+			sepNavSelRange = "{913, 16}";
+			sepNavVisRange = "{290, 1487}";
 			sepNavWindowFrame = "{{19, 615}, {750, 558}}";
 		};
 	};
 	99B75B6B0F276F5F0002B61B /* HoroscopeDetailController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {3876, 2842}}";
-			sepNavSelRange = "{2859, 0}";
-			sepNavVisRange = "{2280, 684}";
+			sepNavIntBoundsRect = "{{0, 0}, {834, 2534}}";
+			sepNavSelRange = "{18, 0}";
+			sepNavVisRange = "{0, 969}";
 		};
 	};
 	99B75BAF0F27758B0002B61B /* PBXTextBookmark */ = {
@@ -394,7 +347,7 @@
 		fRef = 99B75B6A0F276F5F0002B61B /* HoroscopeDetailController.h */;
 		name = "HoroscopeDetailController.h: 13";
 		rLen = 0;
-		rLoc = 1019;
+		rLoc = 1018;
 		rType = 0;
 		vrLen = 263;
 		vrLoc = 0;
@@ -418,9 +371,9 @@
 	};
 	99B75C680F277C720002B61B /* HoroscopeEditingController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1092, 1484}}";
-			sepNavSelRange = "{3111, 0}";
-			sepNavVisRange = "{2041, 1073}";
+			sepNavIntBoundsRect = "{{0, 0}, {1092, 1666}}";
+			sepNavSelRange = "{3516, 0}";
+			sepNavVisRange = "{2288, 1451}";
 			sepNavWindowFrame = "{{19, 615}, {750, 558}}";
 		};
 	};
@@ -443,6 +396,66 @@
 		rType = 0;
 		vrLen = 1355;
 		vrLoc = 0;
+	};
+	99CA64DC0F2A43F50027BD95 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 99B75C680F277C720002B61B /* HoroscopeEditingController.m */;
+		name = "HoroscopeEditingController.m: 102";
+		rLen = 0;
+		rLoc = 3516;
+		rType = 0;
+		vrLen = 1451;
+		vrLoc = 2288;
+	};
+	99CA64DD0F2A43F50027BD95 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 99B75C670F277C720002B61B /* HoroscopeEditingController.h */;
+		name = "HoroscopeEditingController.h: 17";
+		rLen = 0;
+		rLoc = 501;
+		rType = 0;
+		vrLen = 1151;
+		vrLoc = 0;
+	};
+	99CA64DE0F2A43F50027BD95 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* Wingman_HoroscopeAppDelegate.m */;
+		name = "Wingman_HoroscopeAppDelegate.m: 32";
+		rLen = 7;
+		rLoc = 676;
+		rType = 0;
+		vrLen = 733;
+		vrLoc = 0;
+	};
+	99CA65390F2A4FB30027BD95 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286DF0D94DF7D0034E888 /* RootViewController.h */;
+		name = "RootViewController.h: 11";
+		rLen = 0;
+		rLoc = 210;
+		rType = 0;
+		vrLen = 418;
+		vrLoc = 0;
+	};
+	99CA653A0F2A4FB30027BD95 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
+		name = "RootViewController.m: 187";
+		rLen = 0;
+		rLoc = 9917;
+		rType = 0;
+		vrLen = 4303;
+		vrLoc = 4259;
+	};
+	99CA653B0F2A4FB30027BD95 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 99B75B6A0F276F5F0002B61B /* HoroscopeDetailController.h */;
+		name = "HoroscopeDetailController.h: 34";
+		rLen = 16;
+		rLoc = 913;
+		rType = 0;
+		vrLen = 1487;
+		vrLoc = 290;
 	};
 	99D989570F27FFA6003E83A2 /* PlistBookmark */ = {
 		isa = PlistBookmark;

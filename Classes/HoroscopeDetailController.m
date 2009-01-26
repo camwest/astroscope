@@ -30,16 +30,6 @@ CGFloat SHAKE_THRESHOLD = 2.1;
 	[[UIAccelerometer sharedAccelerometer] setUpdateInterval: 0.03]; // 30 fps
 	[[UIAccelerometer sharedAccelerometer] setDelegate: self];
 	
-	showingEditScreen = NO; 
-	
-	UIApplication *app = [UIApplication sharedApplication];
-	[[NSNotificationCenter defaultCenter] 
-		addObserver:self 
-		   selector:@selector(applicationWillTerminate:) 
-			   name:UIApplicationWillTerminateNotification 
-			 object:app];
-	
-	
 	[self loadDataIfExists];
 	
 	//load the sounds
@@ -51,6 +41,16 @@ CGFloat SHAKE_THRESHOLD = 2.1;
 	AudioServicesCreateSystemSoundID (pageSwipeSoundURLRef, &soundFileObject);
 }
 
+- (void)viewDidAppear:(BOOL)animated
+{
+	watchForMovement = YES; 
+}
+
+- (void)viewDidDisappear:(BOOL)animated
+{
+	watchForMovement = NO;	
+}
+
 #pragma mark Data Management
 
 -(NSString *)dataFilePath
@@ -60,28 +60,13 @@ CGFloat SHAKE_THRESHOLD = 2.1;
 	return [documentsDirectory stringByAppendingPathComponent: kFileName];
 }
 
--(void)applicationWillTerminate:(NSNotification *)notification
-{	
-	NSMutableArray *array = [[NSMutableArray alloc] init];	
-	
-	[array addObject: clothingItem1];
-	[array addObject: clothingItem2];
-	[array addObject: descriptiveFeature1];
-	[array addObject: descriptiveFeature2];
-	[array writeToFile: [self dataFilePath] atomically: YES];	
-		
-//	[array release];
-	
-}
-
 -(void)loadDataIfExists
 {
 	NSString *filePath = [self dataFilePath];
 	if ([[NSFileManager defaultManager] fileExistsAtPath:filePath]) {
-		NSLog(@" %@", filePath);
-		
-		NSArray *array = [[NSArray alloc] initWithContentsOfFile:filePath];
 
+		NSArray *array = [[NSArray alloc] initWithContentsOfFile:filePath];
+		
 		clothingItem1 =			[array objectAtIndex: 0];
 		clothingItem2 =			[array objectAtIndex: 1];
 		descriptiveFeature1 =	[array objectAtIndex: 2];
@@ -127,17 +112,14 @@ CGFloat SHAKE_THRESHOLD = 2.1;
 #pragma mark Utility Methods
 -(void)updateStringValues
 {
-	NSLog(@"Updating string values");
-
-	parsedDescription.text = [NSString stringWithFormat:@"Make no mistake, today is one in a million, and you’re ready to roll the dice. Jupiter and Mercury align only three times a century, and that means you should expect the unexpected – and run with it. Keep your eyes out for someone wearing %@ and a %@. They’ll also have %@ and %@. They wouldn’t believe you if you told them, so stay calm and cool, but the two of you are set to embark on the adventure of a lifetime. The energy between you will be electric, and the chemistry will be cosmic.", self.clothingItem1, self.clothingItem2, self.descriptiveFeature1, self.descriptiveFeature2];
+	parsedDescription.text = [NSString stringWithFormat: [horoscopeSelected objectForKey:@"prediction"], self.clothingItem1, self.clothingItem2, self.descriptiveFeature1, self.descriptiveFeature2];
+	
 	nameLabel.text = [horoscopeSelected objectForKey:@"name"];
 	dateLabel.text = [horoscopeSelected objectForKey:@"date"];
 	
 	UIImage *img = [UIImage imageWithContentsOfFile: [[NSBundle mainBundle] pathForResource: [horoscopeSelected objectForKey:@"image"] ofType:@"png"]];
 	
 	zodiacImage.image = img;
-	
-	showingEditScreen = NO;
 }
 
 -(void)startEditing
@@ -174,13 +156,11 @@ CGFloat SHAKE_THRESHOLD = 2.1;
 	filteredAccelY = highPassFilteredY;
 	
 	if ( (fabsf (highPassFilteredX) > SHAKE_THRESHOLD) || (fabsf (highPassFilteredY) > SHAKE_THRESHOLD) ) {
-		if(showingEditScreen == NO) {
+		if(watchForMovement == YES) {
 			[self startEditing];
-			
-			showingEditScreen = YES;
+			watchForMovement = NO;
 		}
-	}
-	
+	}	
 }
 
 - (void)dealloc {

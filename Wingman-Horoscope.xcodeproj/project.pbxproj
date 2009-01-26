@@ -38,6 +38,7 @@
 		99B75B6E0F276F6C0002B61B /* HoroscopeDetail.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99B75B6D0F276F6C0002B61B /* HoroscopeDetail.xib */; };
 		99B75C650F277C5A0002B61B /* HoroscopeEditingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99B75C640F277C5A0002B61B /* HoroscopeEditingView.xib */; };
 		99B75C690F277C720002B61B /* HoroscopeEditingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B75C680F277C720002B61B /* HoroscopeEditingController.m */; };
+		99CA65160F2A4AB50027BD95 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 99CA65150F2A4AB50027BD95 /* Default.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -80,6 +81,7 @@
 		99B75C640F277C5A0002B61B /* HoroscopeEditingView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HoroscopeEditingView.xib; sourceTree = "<group>"; };
 		99B75C670F277C720002B61B /* HoroscopeEditingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HoroscopeEditingController.h; sourceTree = "<group>"; };
 		99B75C680F277C720002B61B /* HoroscopeEditingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HoroscopeEditingController.m; sourceTree = "<group>"; };
+		99CA65150F2A4AB50027BD95 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +170,7 @@
 				995784070F28EA2500CF60A7 /* ZodiacCell.h */,
 				995784080F28EA2500CF60A7 /* ZodiacCell.m */,
 				9957840C0F28EA8D00CF60A7 /* ZodiacCell.xib */,
+				99CA65150F2A4AB50027BD95 /* Default.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -253,6 +256,7 @@
 				995784E20F290D1800CF60A7 /* leoImage.png in Resources */,
 				995784E30F290D1800CF60A7 /* libraImage.png in Resources */,
 				995784E40F290D1800CF60A7 /* scorpioImage.png in Resources */,
+				99CA65160F2A4AB50027BD95 /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,8 +283,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Cameron Westland";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Cameron Westland";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Big Bang Technology";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Big Bang Technology";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -288,8 +292,8 @@
 				GCC_PREFIX_HEADER = Wingman_Horoscope_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
 				PRODUCT_NAME = Astroscope;
-				PROVISIONING_PROFILE = "F7A4BFD6-485B-4593-8841-45D46BBC357E";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "F7A4BFD6-485B-4593-8841-45D46BBC357E";
+				PROVISIONING_PROFILE = "A02846CA-CCF3-448B-8D39-518C760DE536";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "A02846CA-CCF3-448B-8D39-518C760DE536";
 			};
 			name = Debug;
 		};
@@ -297,11 +301,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Cameron Westland";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Wingman_Horoscope_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
-				PRODUCT_NAME = "Wingman-Horoscope";
+				PRODUCT_NAME = Astroscope;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "F7A4BFD6-485B-4593-8841-45D46BBC357E";
 			};
 			name = Release;
 		};

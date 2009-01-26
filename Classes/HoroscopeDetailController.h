@@ -31,7 +31,7 @@
 	UIAccelerationValue filteredAccelX;
 	UIAccelerationValue filteredAccelY;
 	
-	BOOL showingEditScreen;
+	BOOL watchForMovement;
 	
 	//sound variables
 	CFURLRef		pageSwipeSoundURLRef;

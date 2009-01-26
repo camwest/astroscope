@@ -78,6 +78,7 @@
 {	
 	NSLog(@"Save button pressed");
 	
+	//update the detail controller
 	detailController.clothingItem1		 = self.clothingItem1Field.text;
 	detailController.clothingItem2		 = self.clothingItem2Field.text;
 	detailController.descriptiveFeature1 = self.descriptiveFeature1Field.text;
@@ -85,8 +86,20 @@
 	
 	[detailController updateStringValues];
 	
+	//save the data to a file
+	NSMutableArray *array = [[NSMutableArray alloc] init];	
+	
+	[array addObject: self.clothingItem1Field.text];
+	[array addObject: self.clothingItem2Field.text];
+	[array addObject: self.descriptiveFeature1Field.text];
+	[array addObject: self.descriptiveFeature2Field.text];
+	
+	[array writeToFile: [detailController dataFilePath] atomically: YES];	
+	
+	//navigate back to the detail controler
 	[[self navigationController] popViewControllerAnimated: YES];
 	
+	//OH YEAH!
 	AudioServicesPlaySystemSound (self.soundFileObject);
 }
 
