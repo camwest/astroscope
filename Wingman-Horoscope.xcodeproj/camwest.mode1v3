@@ -282,7 +282,7 @@
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 36}, {287, 736}}</string>
+							<string>{{0, 0}, {287, 736}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -329,7 +329,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>99762D2A0F2E1DB7000028AD</string>
+										<string>9951F3D00F2E1E5A000E5806</string>
 										<key>history</key>
 										<array>
 											<string>995784A60F28FDF300CF60A7</string>
@@ -344,7 +344,7 @@
 											<string>99CA653A0F2A4FB30027BD95</string>
 											<string>99CA653B0F2A4FB30027BD95</string>
 											<string>993B44B10F2C0DCA00EFD9C2</string>
-											<string>993B44B80F2C0E8200EFD9C2</string>
+											<string>99762D2A0F2E1DB7000028AD</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -417,9 +417,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>99762D1E0F2E1DB7000028AD</string>
+				<string>9951F3D10F2E1E5A000E5806</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>99762D1F0F2E1DB7000028AD</string>
+				<string>9951F3D20F2E1E5A000E5806</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -553,12 +553,8 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>99762D280F2E1DB7000028AD</string>
-		<string>99762D290F2E1DB7000028AD</string>
-		<string>1CD10A99069EF8BA00B06720</string>
 		<string>998CD9370F25453E0057128C</string>
 		<string>/Users/camwest/src/AstroScope/Wingman-Horoscope.xcodeproj</string>
-		<string>1C78EAAD065D492600B07095</string>
 	</array>
 	<key>WindowString</key>
 	<string>493 306 1151 795 0 0 1920 1178 </string>
@@ -638,7 +634,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>998CD9370F25453E0057128C</string>
-				<string>99762D200F2E1DB7000028AD</string>
+				<string>9951F3D30F2E1E5A000E5806</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
